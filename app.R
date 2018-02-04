@@ -19,6 +19,7 @@ server <- function(input, output, session) {
     titanic_train
   })
   
+  
   observeEvent(input$runRF, {
  
     #This should be filled with input, not working yet
